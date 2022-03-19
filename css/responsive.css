@@ -1,0 +1,75 @@
+@media only screen and (max-width:960px){
+	.container { width: 100%; }
+	.main-content { padding: 15px; }
+}
+
+@media only screen and (max-width:767px){
+.itemBox {
+	font-size: 20px;
+	padding: 10px;
+}
+}
+
+@media only screen and (max-width:375px){
+.main-content h4 {
+    margin-bottom: 0;
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+}
+.calculate-box {
+	border-top: 0;
+	flex-direction: column-reverse;
+}
+.button-box {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.common-btn {
+	width: 106px;
+	height: 40px;
+	margin-bottom: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+.contentBox {
+	background: #fff;
+}
+.calculate-left { width: 100%; }
+.gridBox { display: block; }
+.itemBox {
+	background: #fafafa;
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: #333;
+	padding: 5px 10px;
+	position: relative;
+}
+.one:before,
+.two:before,
+.three:before,
+.four:before {
+	content: '';
+	background: #2B8EAD;
+	top:0;
+	left:0;
+	width: 5px;
+	height: 100%;
+	position: absolute;
+}
+.one:before {
+	background: #BFBFBF;
+}
+.three:before {
+	background: #2F454E;
+}
+.four:before {
+	background: #6F98A8;
+}
+.calculate-left p {
+	text-align: center;
+	font-size: 12px;
+}
+
+}
